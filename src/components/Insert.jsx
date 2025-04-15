@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import supabase from './supabaseClient'
+import supabase from '../supabaseConfig/supabaseClient'
 
 function Insert() {
   const [ name, setName] = useState('')
