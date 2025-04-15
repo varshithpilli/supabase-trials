@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: auto;
+    height: auto;
+    background-color: rgb(26, 25, 25);
+    padding: 25px;
+    border-radius: 25px;
+
+}
+
+label{
+    text-align: left;
+    margin: 5px 0px;
+    font-size: 20px;
+}
+
+input, textarea{
+    width: 95%;
+}
+
+button{
+    margin-top: 15px;
+    width: 97%;
+    background-color: black;
+}
+
+.form-message{
+    margin-top: 15px;
+}
